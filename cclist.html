@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DNS status</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous"> 
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+	  <div class="row">
+		<div class="col-md-12">
+			<div class="page-header">
+				<h1>
+                    DNS status
+				</h1>
+			</div>
+			<ul class="nav nav-tabs">
+				<li class="nav-item">
+					<a class="nav-link active" href="#">IPv4</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">IPv6</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">HELP <i class="fas fa-info-circle"></i></a>
+				</li>
+				<li class="nav-item  ml-md-auto">
+					<a class="nav-link" href="#">只顯示 <i class="fas fa-exclamation-triangle"></i></a>
+				</li>
+			</ul>
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th>
+							行政區
+						</th>
+						<th>
+							學校名稱
+						</th>
+						<th>
+							IP
+						</th>
+						<th>
+							狀態
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							天龍區
+						</td>
+						<td>
+							天龍國小
+						</td>
+						<td>
+							127.0.0.1
+						</td>
+						<td>
+							<div style="font-size:1.5em; color:green"><i class="fas fa-check-circle"></i></div>
+						</td>
+					</tr>
+				
+					<tr class="table-warning">
+						<td>
+							南部
+						</td>
+						<td>
+							哭哭國小
+						</td>
+						<td>
+							192.168.1.1
+						</td>
+						<td>
+							<div style="font-size:1.5em; color:red"><i class="fas fa-exclamation-triangle"></i></div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	  </div>
+    </div>
+</body>
+</html>
